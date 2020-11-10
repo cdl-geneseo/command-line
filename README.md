@@ -9,7 +9,7 @@ To prepare for the workshop, you should
 
 ## What this workshop is about
 
-Most of us interact with our computers by clicking on icons of files and folders, choosing actions from dropdown menus, and working with our scholarly, creative, or personal content inside little windows whose appearance and functionality is designed by companies such as Apple, Microsoft, Google, and Adobe. 
+Most of us interact with our computers by clicking on icons of files and folders, choosing actions from dropdown menus, and working with our scholarly, creative, or personal content inside little windows whose appearance and functionality are designed by companies such as Apple, Microsoft, Google, and Adobe. 
 
 This *graphical user interface* (GUI, or "gooey," for short) greatly simplifies many computing tasks and empowers us in many ways.
 
@@ -23,10 +23,10 @@ This workshop is a very basic introduction to the command line, designed to get 
 
 - Learn common commands to create files (`touch` and `echo`)
 - Learn commands to create directories (`mkdir`)
-- Navigate our file structure using change directory (`cd`), print working directory (`pwd`), and list (`ls`)
+- Navigate your file structure using change directory (`cd`), print working directory (`pwd`), and list (`ls`)
 - Move content from one place to another using redirects (`>`) and pipes (`|`)
-- Explore a comma separated values (.csv) dataset using word and line counts, `head` and `tail`, and the concatenate command `cat`
-- Search text files using the `grep` command
+- Explore textual content in a literary work using word and line counts, `head` and `tail`, and the concatenate command `cat`
+- Search textual content using the `grep` command
 - Create and sort cheat sheets for the commands we learn
 
 ---
