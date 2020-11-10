@@ -55,18 +55,16 @@ This workshop is a very basic introduction to the command line, designed to get 
 
 ## Before you get started
 
-If you do not have experience or basic knowledge of the following workshops, you may want to look into those before you start with Introduction to the Command Line:
+Reminder: to complete the workshop, you'll need:
 
-To complete the workshop, you will need:
-
-- A plain text editor, such as [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) installed
-- To know what operating system you're using. If you are on a Mac, you will be using your Terminal. If you're using Windows, you will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md), so that we can work in the cross-platform Unix command line for this session.
+- A plain text editor. We recommend [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). It isn't superior to all other text editors, but you'll probably find it easier to follow along if you're using the same editor as the workshop leaders.
+- To know what operating system you're using. If you are on a Mac, you will be using an application included on all Macs called Terminal. If you're using Windows, you will need to install Git Bash, following [these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md#installation-instructions-microsoft-windows-10), so that we can work in the cross-platform Unix command line for this session.
 
 ### Ethical Considerations
 
 Before you start the Introduction to the Command Line workshop, we want to remind you of some ethical considerations to take into account when you read through the lessons of this workshop:
 
-- "The command line" is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in ["On Software, or the Persistence of Visual Knowledge" (2004)](https://doi.org/10.1162/1526381043320741), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts——predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argues
+- "The command line" is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in ["On Software, or the Persistence of Visual Knowledge" (2004)](https://doi.org/10.1162/1526381043320741), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts&mdash;predominantly men with the military&mdash;that they then had to interpret and act upon the machine. As Chun (p. 34) argues
 
     > computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.
 
