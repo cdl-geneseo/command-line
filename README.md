@@ -1,11 +1,25 @@
 ![Header image for the Command Line workshop](https://raw.githubusercontent.com/DHRI-Curriculum/command-line/v2.0/_django-meta/header%403x.png)
 
+This fall 2020 workshop at SUNY Geneseo re-uses [content](https://github.com/DHRI-Curriculum/command-line) shared openly by the [Digital Humanities Research Institute](https://www.dhinstitutes.org/) at the CUNY Graduate Center. A few modifications have been made to tailor the content to our Geneseo community.
 
-<!-- Testing for change -->
+To prepare for the workshop, you should 
 
-If asked to show someone who has never seen a computer how to *do* something on your computer, many of us would explain what a screen and a cursor are, and then show how to point and click on icons. This approach relies on a graphical user interface, or GUI (pronounced "gooey!"). Today we're going to explore another way to make your computer do things: through the command line. Instead of pointing and clicking, we'll be typing in either git bash (Windows) or terminal (macOS) to tell the computer directly what task we'd like it to perform.
+1. **All users:** [Follow these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) to download and install Microsoft's free text-editor, Visual Studio Code. (Be sure to complete all the configuration steps in the instructions.)
+2. **Windows users only:** [Follow these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md#installation-instructions-microsoft-windows-10) to download and install Git and Git Bash. Git Bash will enable you to issue commands on your Windows machine the same way you would in MacOS or Linux. 
 
-In this workshop, you will:
+## What this workshop is about
+
+Most of us interact with our computers by clicking on icons of files and folders, choosing actions from dropdown menus, and working with our scholarly, creative, or personal content inside little windows whose appearance and functionality is designed by companies such as Apple, Microsoft, Google, and Adobe. 
+
+This *graphical user interface* (GUI, or "gooey," for short) greatly simplifies many computing tasks and empowers us in many ways.
+
+But it also obscures from us what our computers are actually *doing* when we use them. And when we rely entirely on the GUI, we're allowing a small number of (mostly) proprietary companies to mediate our computing experience.
+
+Learning to use your computer's command line can increase your freedom and autonomy as a scholar, creator, and citizen. It can also enable you to do some pretty cool things.
+
+## What we'll cover
+
+This workshop is a very basic introduction to the command line, designed to get you started down the road to greater power and agency. As we move through it, you'll  
 
 - Learn common commands to create files (`touch` and `echo`)
 - Learn commands to create directories (`mkdir`)
