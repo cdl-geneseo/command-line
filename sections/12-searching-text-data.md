@@ -73,7 +73,7 @@ To find all the instances of the string `water` in *Walden*, we could type:
 ```
 $ grep -En --color=always 'water' walden.txt
 ```
-In place of `-Eo`, we've used `-En` here. For this search, we didn't want to "extract" the strings we found; instead, we wanted to see them in context. The `-n` flag tells the shell to print line numbers to the left of the lines, which might be helpful for locating a particular result. The `--color=always` flag ensures that the search string is highlighted in a different color, making it easier to see.
+In place of `-Eo`, we've used `-En` here. For this search, we didn't want to "extract" the strings we found; instead, we wanted to see them in context. The `-n` flag tells the shell to print line numbers to the left of the lines, which might be helpful for locating a particular result. The `--color=always` option ensures that the search string is highlighted in a different color, making it easier to see.
 
 If you scroll through your search results, you'll notice that your search picked out not only instance of the word "water" but also related words such as "watery" and "waters." If you wanted to exclude such words, you could use the `\b` delimeter in your regular expression, as we did earlier:
 
