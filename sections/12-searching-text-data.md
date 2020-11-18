@@ -54,15 +54,7 @@ How many unique words are there in *Walden*?
 $ grep -Eo '\b\w+\b' walden.txt | sort -uf | wc -l
 10707
 ```
-Now that we have a total word count for *Walden*, we can do a little math:
-
-```
-$ echo $(( 10707.0/107714 * 100 ))
-9.9402120430027665
-```
-The unique words of *Walden* represent a little under 10% of the total word count. That may seem like a small proportion, but it's not an unusual one, even in a highly literary text like *Walden*. Most texts recycle a lot of words, especially words like "a" and "the."
-
-This proportion is sometimes said to indicate the "lexical richness" or "lexical diversity" of a text.
+Now that we have a total word count for *Walden*, we can do a little math. The ratio of unique words to total words in a text is sometimes used as a measure of the text's "lexical richness" or "lexical diversity." For *Walden*, this figure would be 10707/107714 or 0.09940212043002766. If that seems like a small number, consider that most texts recycle a lot of words, especially words like "a" and "the."
 
 ## Searching
 
