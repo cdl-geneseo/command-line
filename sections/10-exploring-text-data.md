@@ -8,13 +8,13 @@ So far the only text file we've been working with is our cheat sheet. Now, this 
 
 Let's download the file we're going to work with:
 
-[Download `walden.txt`](https://raw.githubusercontent.com/cdl-geneseo/command-line/fall-20-workshop/files/walden.txt) (To download the file rather than open it in your browser window, you may need to right-click and "Save File As ...")
+[Download `walden.txt`](https://raw.githubusercontent.com/cdl-geneseo/command-line/fall-20-workshop/files/walden.txt) (To download the file rather than open it in your browser window, you may need to right-click and "Save Link As ...". On a Mac laptop, which doesn't have a dedicated button for right-clicking, press the trackpad while holding down the <kbd>control</kbd> key. If a dialog pops up asking where to save the file, save it to your `Downloads` folder.)
 
 Our file contains the text of Henry David Thoreau's *Walden*, obtained from [Gutenberg.org](https://www.gutenberg.org/files/205/205-0.txt) and cleaned up to remove another Thoreau text from the file ("Civil Disobedience") and the boilerplate language that Gutenberg includes at the top and bottom of every file. 
 
 ## Move Command
 
-Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop—either through the command line or by dragging and dropping in the GUI. Since this is indeed a command line workshop, you should try the former!
+Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop—either through the command line or by dragging and dropping in the GUI. (Since this is a command line workshop, why not try the former?)
 
 To move this file using the command line, you first need to navigate to your `Downloads` folder where that file is saved. Then type the `mv` command followed by the name of the file you want to move and then the file path to your `projects` folder on your desktop, which is where you want to move that file to (note that `~` refers to your home folder):
 
