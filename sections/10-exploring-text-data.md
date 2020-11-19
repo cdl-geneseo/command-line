@@ -14,7 +14,7 @@ Our file contains the text of Henry David Thoreau's *Walden*, obtained from [Gut
 
 ## Move Command
 
-Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop—either through the command line or by dragging and dropping in the GUI. (Since this is a command line workshop, why not try the former?)
+Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop—either through the command line or by dragging and dropping in the GUI. Since this is a command line workshop, why not try the former?
 
 To move this file using the command line, you first need to navigate to your `Downloads` folder where that file is saved. Then type the `mv` command followed by the name of the file you want to move and then the file path to your `projects` folder on your desktop, which is where you want to move that file to (note that `~` refers to your home folder):
 
