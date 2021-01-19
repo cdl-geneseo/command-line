@@ -37,6 +37,8 @@ This workshop is a very basic introduction to the command line, designed to get 
 
 ## Lessons
 
+### Part one
+
 1. [What Is the Command Line?](sections/01-what-is-the-command-line.md)
 2. [Text Editors](sections/02-text-editors.md)
 3. [Why is the Command Line Useful?](sections/03-why-is-the-command-line-useful.md)
