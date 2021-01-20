@@ -3,84 +3,108 @@
 ---
 # 14. Removing files and folders
 
-Create a folder for the workshop, or go to the folder you used previously
+Create a new folder for today's workshop, or go to the folder you used previously.
 
+```$ cd path/to/folder
 ```
-cd path/to/folder
-```
-
 or
 
+```$ cd Desktop
 ```
-mkdir
-cd
+or other desired location, such as `Docments`
+
+```$ mkdir workshop
+$ cd workshop
 ```
+Note that `workshop` is an example name. Name your folder whatever you like!
 
 Create a folder within the folder
 
+```$ mkdir my-new-folder
 ```
-mkdir
-```
+Again, use any name you like for your folder, but remember, no spaces in the name!
 
 Descend into the folder
 
+```$ cd my-new-folder
 ```
-cd
+Create a new file inside your new folder
+
+```$ touch my-awesome-file.txt
+```
+Open the file in VS Code.
+
+```$ code my-awesome-file.txt
+```
+If the `code` command doesn't open your text file in Visual Studio Code, either you haven't yet installed Visual Studio Code or you neglected to follow Step 5 in the <a href="https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md" target="_blank">installation instructions</a>.
+
+No worries. If do you have VS Code installed, fire it up and open your file with File > Open. If you don't, locate the file in the GUI and double-click to open it. It should open in your operating system's default plain text editor, sucy as TextEdit (Mac) or Notepad (Windows).
+
+Make a mental note to get yourself properly set up in VS Code at a later date. 
+
+Add some content to the file. Type anything you like. Maybe "Hello, World!" Save the file.
+
+Switch back to your terminal and look inside the file.
+
+```$ cat my-awesome-file.txt
+```
+Let's remove (delete) the file
+
+```$ rm my-awesome-file.txt
+```
+**Important**: The `rm` command deletes files and folders from your computer *permanently*. It doesn't move them to a "Trash" or "Recycle" folder. Once you remove files or folders this way, you can't get them back. 
+
+If you still have the file open in VS Code, you'll see "(deleted)" next to file name. Notice that your file content is still there. This does, in fact, give you a way to recover the file content, using `File > Save` or `File > Save As`. Technically, you're not getting your original file back but creating a new file with the content that's still displayed in your VS Code window. 
+
+If you don't want that file content any more, click the "x" next to the file name, and the content will be permanently deleted. Note that if you hadn't had the file open in VS Code, you wouldn't have had this option. There would have been no going back after issuing `rm` at the command line.
+
+Let's create a new file
+
+```$ touch my-terrific-file.txt
+```
+Once again, open the file in VS Code or another application to add content.
+
+```$ code my-terrific-file.txt
+```
+Type something in the file and save it.
+
+Look inside the file from the command line.
+
+```$ cat my-terrific-file.txt
+```
+Not seeing the content you added? Double-check that you *saved* the content, then try again.
+
+Ascend out of `my-new-folder` (or whatever you called the folder you're working in). We're going to remove `my-new-folder`. We can't do that from inside the folder; that's why we have to move up a level.
+
+```$ cd .. 
 ```
 
-Create a file
+Let's remove the folder. First, though, let's be extra careful and make sure that we know what we'll be removing. Remember that if you remove a folder with lots of files in it, you won't have a way to get them back. It's always a good idea to take one last look inside a folder before removing it.
 
+```$ ls my-new-folder
 ```
-touch
-```
+Your terminal will list the contents of the folder. If what it lists isn't what you expected, double-check where you are in your file hierarchy. (Remember that `pwd` is helpful for this.) Your location should be something like `/Users/your-user-name/Desktop/workshop`, and if you simply type `ls`, you should see `my-new-folder` listed. 
 
-Edit the file in VS Code or the GUI
+In the right place? Time to remove the folder. In your GUI, when you delete a folder, its contents are deleted, too. At the command line, the process works a little differently. If you type
 
+```$ rm my-new-folder
 ```
-code
-```
+you'll get an error message that will look something like this:
 
-Look inside the file
-
+```rm: vim-test: is a directory
 ```
-cat
-```
+This is a pretty helpful safeguard. Imagine if you thought you were removing a single, unneeded file, only to find that you'd permanently deleted a directory holding hundreds of valuable files!
 
-Remove the file
+To remove a directory (aka a "folder") from the command line, you have to add the `-r` flag to your command. The `-r` stands for "recursive." When you tell your shell to remove a directory, you're actually telling it to loop through the list of files in the directory and remove each one individually. This is true even if the list is a list of only one.
 
-```
-rm
-```
+Once the files have been removed (remember: *permanently*!), the empty directory  is removed as well.
 
-Create a new file
+Got it? Here we go.
 
-```
-touch
+```$ rm -r my-new-folder
 ```
 
-Edit the file in VS Code or the GUI
-
-```
-code
-```
-
-Look inside the file
-
-```
-cat
-```
-
-Ascend out of the folder
-
-```
-cd ..
-```
-
-Remove the folder
-
-```
-rm -r
-```
+If you now type `ls` at the prompt, you should no longer see `my-new-folder` listed inside `workshop`.
 
 ---
 
