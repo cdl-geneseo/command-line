@@ -5,36 +5,43 @@
 
 Create a new folder for today's workshop, or go to the folder you used previously.
 
-```$ cd path/to/folder
+```console
+$ cd path/to/folder
 ```
 or
 
-```$ cd Desktop
+```console
+$ cd Desktop
 ```
 or other desired location, such as `Docments`
 
-```$ mkdir workshop
+```console
+$ mkdir workshop
 $ cd workshop
 ```
 Note that `workshop` is an example name. Name your folder whatever you like!
 
 Create a folder within the folder
 
-```$ mkdir my-new-folder
+```console
+$ mkdir my-new-folder
 ```
 Again, use any name you like for your folder, but remember, no spaces in the name!
 
 Descend into the folder
 
-```$ cd my-new-folder
+```console
+$ cd my-new-folder
 ```
 Create a new file inside your new folder
 
-```$ touch my-awesome-file.txt
+```console
+$ touch my-awesome-file.txt
 ```
 Open the file in VS Code.
 
-```$ code my-awesome-file.txt
+```console
+$ code my-awesome-file.txt
 ```
 If the `code` command doesn't open your text file in Visual Studio Code, either you haven't yet installed Visual Studio Code or you neglected to follow Step 5 in the <a href="https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md" target="_blank">installation instructions</a>.
 
@@ -46,11 +53,13 @@ Add some content to the file. Type anything you like. Maybe "Hello, World!" Save
 
 Switch back to your terminal and look inside the file.
 
-```$ cat my-awesome-file.txt
+```console
+$ cat my-awesome-file.txt
 ```
 Let's remove (delete) the file
 
-```$ rm my-awesome-file.txt
+```console
+$ rm my-awesome-file.txt
 ```
 **Important**: The `rm` command deletes files and folders from your computer *permanently*. It doesn't move them to a "Trash" or "Recycle" folder. Once you remove files or folders this way, you can't get them back. 
 
@@ -60,38 +69,45 @@ If you don't want that file content any more, click the "x" next to the file nam
 
 Let's create a new file
 
-```$ touch my-terrific-file.txt
+```console
+$ touch my-terrific-file.txt
 ```
 Once again, open the file in VS Code or another application to add content.
 
-```$ code my-terrific-file.txt
+```console
+$ code my-terrific-file.txt
 ```
 Type something in the file and save it.
 
 Look inside the file from the command line.
 
-```$ cat my-terrific-file.txt
+```console
+$ cat my-terrific-file.txt
 ```
 Not seeing the content you added? Double-check that you *saved* the content, then try again.
 
 Ascend out of `my-new-folder` (or whatever you called the folder you're working in). We're going to remove `my-new-folder`. We can't do that from inside the folder; that's why we have to move up a level.
 
-```$ cd .. 
+```console
+$ cd .. 
 ```
 
 Let's remove the folder. First, though, let's be extra careful and make sure that we know what we'll be removing. Remember that if you remove a folder with lots of files in it, you won't have a way to get them back. It's always a good idea to take one last look inside a folder before removing it.
 
-```$ ls my-new-folder
+```console
+$ ls my-new-folder
 ```
 Your terminal will list the contents of the folder. If what it lists isn't what you expected, double-check where you are in your file hierarchy. (Remember that `pwd` is helpful for this.) Your location should be something like `/Users/your-user-name/Desktop/workshop`, and if you simply type `ls`, you should see `my-new-folder` listed. 
 
 In the right place? Time to remove the folder. In your GUI, when you delete a folder, its contents are deleted, too. At the command line, the process works a little differently. If you type
 
-```$ rm my-new-folder
+```console
+$ rm my-new-folder
 ```
 you'll get an error message that will look something like this:
 
-```rm: vim-test: is a directory
+```console
+rm: vim-test: is a directory
 ```
 This is a pretty helpful safeguard. Imagine if you thought you were removing a single, unneeded file, only to find that you'd permanently deleted a directory holding hundreds of valuable files!
 
@@ -101,7 +117,8 @@ Once the files have been removed (remember: *permanently*!), the empty directory
 
 Got it? Here we go.
 
-```$ rm -r my-new-folder
+```console
+$ rm -r my-new-folder
 ```
 
 If you now type `ls` at the prompt, you should no longer see `my-new-folder` listed inside `workshop`.

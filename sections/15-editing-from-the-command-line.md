@@ -11,13 +11,15 @@ If you spend enough time on the command line, eventually you'll find yourself in
 
 Create a new file or open an existing one:
 
-```$ vim filename.txt
+```console
+$ vim filename.txt
 ```
 The editor will open in the terminal. To begin editing, type the letter `i` (for "insert"). This puts your editor in "Insert" mode.
 
 Type a line of text: for example, 
 
-```Hello, World!
+```console
+Hello, World!
 ```
 To save the content you've just added to the file, first hit `esc` (Escape) to exit "Insert" mode, then type `:w`, then hit `return/enter`. You'll get some feedback at the bottom of your terminal window letting you know that you've successfully "written" content to the file.
 
@@ -25,13 +27,15 @@ Type `:q` (for "quit") and hit `return/enter` to close the file. You'll find you
 
 If you type
 
-```cat filename.txt
+```console
+cat filename.txt
 ```
 you can confirm that you saved the file content successfully.
 
 Suppose you want to re-enter the file and add a line? 
 
-```$ vim filename.txt
+```console
+$ vim filename.txt
 ```
 Don't type `i` yet. (If you did, hit `esc`.) You'll see your cursor sitting at the top of the file. Notice that you can't simply mouse to the end of the line and click to drop your cursor there. Nor can you create a new line beneath the existing one by hitting `return`.
 
@@ -49,11 +53,13 @@ It takes a while to get the hang of Vim's keyboard commands, but once you do, it
 
 You may find Nano a little more user-friendly than Vim. Create a new text file by typing
 
-```$ nano newfilename.txt
+```console
+$ nano newfilename.txt
 ```
 Or, if you prefer, re-enter the file you just edited in Vim:
 
-```$ nano filename.txt
+```console
+$ nano filename.txt
 ```
 With Nano, you can start moving around in the file and typing right away; no need to switch into a special "Insert" mode.
 
