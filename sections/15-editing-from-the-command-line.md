@@ -1,4 +1,4 @@
-← [Title](file.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Title](file.md) →
+← [Removing Files and Folders](14-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Title](file.md) →
 
 ---
 # 15. Editing from the command line
@@ -79,4 +79,4 @@ Notice that you can use Vim, Nano, and VS Code interchangeably on any plain text
 
 ---
 
-← [Title](file.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Title](file.md) →
+← [Removing Files and Folders](14-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Title](file.md) →

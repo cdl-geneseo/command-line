@@ -1,7 +1,7 @@
-← [Title](file.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Title](file.md) →
+← [What We Have Learned](13-what-we-have-learned.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Editing From the Command Line](15-editing-from-the-command-line.md) →
 
 ---
-# 14. Removing files and folders
+# 14. Removing Files and Folders
 
 Create a new folder for today's workshop, or go to the folder you used previously.
 
@@ -13,7 +13,7 @@ or
 ```console
 $ cd Desktop
 ```
-or other desired location, such as `Docments`
+or other desired location, such as `Docments`.
 
 ```console
 $ mkdir workshop
@@ -21,19 +21,19 @@ $ cd workshop
 ```
 Note that `workshop` is an example name. Name your folder whatever you like!
 
-Create a folder within the folder
+Create a folder within the folder.
 
 ```console
 $ mkdir my-new-folder
 ```
 Again, use any name you like for your folder, but remember, no spaces in the name!
 
-Descend into the folder
+Descend into the folder.
 
 ```console
 $ cd my-new-folder
 ```
-Create a new file inside your new folder
+Create a new file inside your new folder.
 
 ```console
 $ touch my-awesome-file.txt
@@ -56,7 +56,7 @@ Switch back to your terminal and look inside the file.
 ```console
 $ cat my-awesome-file.txt
 ```
-Let's remove (delete) the file
+Let's remove (delete) the file.
 
 ```console
 $ rm my-awesome-file.txt
@@ -67,7 +67,7 @@ If you still have the file open in VS Code, you'll see "(deleted)" next to file 
 
 If you don't want that file content any more, click the "x" next to the file name, and the content will be permanently deleted. Note that if you hadn't had the file open in VS Code, you wouldn't have had this option. There would have been no going back after issuing `rm` at the command line.
 
-Let's create a new file
+Let's create a new file.
 
 ```console
 $ touch my-terrific-file.txt
@@ -125,4 +125,4 @@ If you now type `ls` at the prompt, you should no longer see `my-new-folder` lis
 
 ---
 
-← [Title](file.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Title](file.md) →
+← [What We Have Learned](13-what-we-have-learned.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Editing From the Command Line](15-editing-from-the-command-line.md) →
