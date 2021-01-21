@@ -48,10 +48,15 @@ This workshop is a very basic introduction to the command line, designed to get 
 7. [Creating Files and Folders](sections/07-creating-files-and-folders.md)
 8. [Creating a Cheat Sheet](sections/08-creating-a-cheat-sheet.md)
 9. [Pipes](sections/09-pipes.md)
-10. [Exploring Text Data](sections/10-exploring-text-data.md)
-11. [Interlude](sections/11-interlude.md)
-12. [Searching Text Data](sections/12-searching-text-data.md)
-13. [What We Have Learned](sections/13-what-we-have-learned.md)
+10. [Interlude](sections/10-interlude.md)
+
+### Part two
+
+11. [Removing Files and Folders](sections/11-removing-files-and-folders.md)
+12. [Editing from the Command Line](sections/12-editing-from-the-command-line.md)
+13. [Exploring Text Data](sections/13-exploring-text-data.md)
+14. [Analyzing Text Data](sections/14-analyzing-text-data.md)
+15. [Review and Next Steps](sections/15-review-and-next-steps.md)
 
 ---
 

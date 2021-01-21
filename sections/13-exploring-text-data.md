@@ -1,8 +1,8 @@
-← [Pipes](09-pipes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Interlude](11-interlude.md) →
+← [Editing from the Command Line](12-editing-from-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Analyzing Text Data](14-analyzing-text-data.md) →
 
 ---
 
-# 10. Exploring Text Data
+# 13. Exploring Text Data
 
 So far the only text file we've been working with is our cheat sheet. Now, this is where the command line can be a very powerful tool: let's try working with a large text file, one that would be too large to work with by hand.
 
@@ -54,4 +54,4 @@ $ tail walden.txt
 ```
 These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
 
-← [Pipes](09-pipes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Interlude](11-interlude.md) →
+← [Editing from the Command Line](12-editing-from-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Analyzing Text Data](14-analyzing-text-data.md) →

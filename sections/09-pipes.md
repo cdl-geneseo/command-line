@@ -1,4 +1,4 @@
-← [Creating a Cheat Sheet](08-creating-a-cheat-sheet.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Exploring Text Data](10-exploring-text-data.md) →
+← [Creating a Cheat Sheet](08-creating-a-cheat-sheet.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Interlude](10-interlude.md) →
 
 ---
 
@@ -41,4 +41,4 @@ What do pipes allow you to do?
 
 ---
 
-← [Creating a Cheat Sheet](08-creating-a-cheat-sheet.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Exploring Text Data](10-exploring-text-data.md) →
+← [Creating a Cheat Sheet](08-creating-a-cheat-sheet.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Interlude](10-interlude.md) →

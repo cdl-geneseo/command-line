@@ -1,7 +1,7 @@
-← [Removing Files and Folders](14-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Title](file.md) →
+← [Removing Files and Folders](11-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Analyzing Text Data](13-analyzing-text-data.md) →
 
 ---
-# 15. Editing from the command line
+# 12. Editing from the command line
 
 You've already seen that you can look inside plain text files from the command line using commands like `cat` and `less`. It's also possible to edit plain text files directly in a terminal window without launching VS Code or another external plain-text editing application. 
 
@@ -39,7 +39,7 @@ $ vim filename.txt
 ```
 Don't type `i` yet. (If you did, hit `esc`.) You'll see your cursor sitting at the top of the file. Notice that you can't simply mouse to the end of the line and click to drop your cursor there. Nor can you create a new line beneath the existing one by hitting `return`.
 
-To relocate your cursor, you can use your keyboard's arrow keys or certain of the letter keys. For example, `l` moves your cursor one character to the right, while `h` moves it one character to the left. You can move up and down in a file using `k` and `j`, respectively. You can use `w` to move forward one word at a time and `b` to move back one word at a time. Use `)` and `(` to move forward and back, respectively, one sentence at a time.
+To relocate your cursor, you can use your keyboard's arrow keys or certain of the letter keys. For example, `l` moves your cursor one character to the right, while `h` moves it one character to the left. You can move up and down in a file using `k` and `j`, respectively. You can use `w` to move forward one word at a time and `b` to move back one word at a time. Use `)` and `(` to move forward and back, respectively, one sentence at a time. Use `$`to move to the end of a line, `0` to move to the beginning.
 
 Let's add a little more text. Move the cursor where you'd like it, then type `i` to enter "Insert" mode. (Once you do this, the letter keys will no longer be available for navigation until you exit "Insert" mode with `esc`, but you can still navigate with your arrow keys.)
 
@@ -79,4 +79,4 @@ Notice that you can use Vim, Nano, and VS Code interchangeably on any plain text
 
 ---
 
-← [Removing Files and Folders](14-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Title](file.md) →
+← [Removing Files and Folders](11-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Analyzing Text Data](13-analyzing-text-data.md) →

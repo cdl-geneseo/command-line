@@ -1,8 +1,8 @@
-← [Interlude](11-interlude.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[What We Have Learned](13-what-we-have-learned.md) →
+← [Exploring Text Data](13-exploring-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Review and Next Steps](15-review-and-next-steps.md) →
 
 ---
 
-# 12. Analyzing Text Data
+# 14. Analyzing Text Data
 
 Let's do some very basic analysis of *Walden*. The tools we'll use to do this are rough; they won't yield information as accurate as what we'd get using a programming language such as Python or R. But precision isn't our aim here; we just want to get a quick sense of some things we can do with plain text content at the command line.
 
@@ -124,4 +124,4 @@ Let's think about the `grep` command.
 
 ---
 
-← [Interlude](11-interlude.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[What We Have Learned](13-what-we-have-learned.md) →
+← [Exploring Text Data](13-exploring-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Review and Next Steps](15-review-and-next-steps.md) →

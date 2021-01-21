@@ -1,8 +1,8 @@
-← [Exploring Text Data](10-exploring-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Searching Text Data](12-searching-text-data.md) →
+← [Pipes](09-pipes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Removing Files and Folders](11-removing-files-and-folders.md) →
 
 ---
 
-# 11. Interlude
+# 10. Interlude
 
 ## A Favorite Command Line Feature: Tab Completion
 
@@ -18,4 +18,4 @@ If all the text remaining in your terminal window is starting to overwhelm you, 
 
 ---
 
-← [Exploring Text Data](10-exploring-text-data.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Searching Text Data](12-searching-text-data.md) →
+← [Pipes](09-pipes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Removing Files and Folders](11-removing-files-and-folders.md) →

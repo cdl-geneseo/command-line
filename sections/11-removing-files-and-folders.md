@@ -1,7 +1,7 @@
-← [What We Have Learned](13-what-we-have-learned.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Editing From the Command Line](15-editing-from-the-command-line.md) →
+← [Interlude](10-interlude.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Editing from the Command Line](12-editing-from-the-command-line.md) →
 
 ---
-# 14. Removing Files and Folders
+# 11. Removing Files and Folders
 
 Create a new folder for today's workshop, or go to the folder you used previously.
 
@@ -125,4 +125,4 @@ If you now type `ls` at the prompt, you should no longer see `my-new-folder` lis
 
 ---
 
-← [What We Have Learned](13-what-we-have-learned.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Editing From the Command Line](15-editing-from-the-command-line.md) →
+← [Interlude](10-interlude.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Editing from the Command Line](12-editing-from-the-command-line.md) →
