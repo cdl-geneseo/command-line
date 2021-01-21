@@ -26,13 +26,14 @@ When we started, we reviewed what text is — whether plain or enriched. We lear
 
 *&hellip; not necessarily in this order:*
 
-- Explore the resources at [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
-- Learn how to spiff up your command-line interface and add new capabilities to your shell by moving from bash to zsh and installing [oh-my-zsh](https://ohmyz.sh/)
-- Explore Geneseo's LinkedIn Learning videos (via myGeneseo) on the terminal, the command-line, shell scripting, programming languages, and web development
-- Learn how to install additional programs that you can use on the command-line using a package manager such as [Homebrew](https://brew.sh/) (for MacOS) or Apt (for Linux)
-- Learn about Git (a versioning tool that was used to build this website and is most powerful when used from the command line) and GitHub (the cloud service that hosts this website and that open-source developers use to collaborate on all sorts of projects, especially software)
-- Learn to write plain text documents in [Markdown](https://en.wikipedia.org/wiki/Markdown), a simple syntax that's easily converted to a range of other formats, such as HTML or PDF and that's incredibly useful for, among other things, lightweight, portable note-taking
-- Learn about [pandoc](https://pandoc.org/), a super-useful command-line tool for converting files from one format to another (for example, Markdown to .docx, .pdf, or .epub)
+- Explore the resources at [Awesome Bash](https://github.com/awesome-lists/awesome-bash).
+- Learn how to spiff up your command-line interface and add new capabilities to your shell by moving from bash to zsh and installing [oh-my-zsh](https://ohmyz.sh/).
+- Explore Geneseo's LinkedIn Learning videos (via myGeneseo) on the terminal, the command-line, shell scripting, programming languages, and web development.
+- Learn how to use [regular expressions](http://www.rexegg.com/) (aka "regex") in your command-line searches and inside the wide range of software applications that support it, then sharpen your regex skills or test your expressions using the interactive [regexr](https://regexr.com/). 
+- Learn how to install additional programs that you can use on the command-line using a package manager such as [Homebrew](https://brew.sh/) (for MacOS) or Apt (for Linux).
+- Learn about Git (a versioning tool that was used to build this website and is most powerful when used from the command line) and GitHub (the cloud service that hosts this .website and that open-source developers use to collaborate on all sorts of projects, especially software)
+- Learn to write plain text documents in [Markdown](https://en.wikipedia.org/wiki/Markdown), a simple syntax that's easily converted to a range of other formats, such as HTML or PDF and that's incredibly useful for, among other things, lightweight, portable note-taking.
+- Learn about [pandoc](https://pandoc.org/), a super-useful command-line tool for converting files from one format to another (for example, Markdown to .docx, .pdf, or .epub).
 
 ---
 
