@@ -1,4 +1,4 @@
-← [Removing Files and Folders](11-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Analyzing Text Data](13-analyzing-text-data.md) →
+← [Removing Files and Folders](11-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Exploring Text Data](13-exploring-text-data.md) →
 
 ---
 # 12. Editing from the command line
@@ -79,4 +79,4 @@ Notice that you can use Vim, Nano, and VS Code interchangeably on any plain text
 
 ---
 
-← [Removing Files and Folders](11-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Analyzing Text Data](13-analyzing-text-data.md) →
+← [Removing Files and Folders](11-removing-files-and-folders.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Exploring Text Data](13-exploring-text-data.md) →
