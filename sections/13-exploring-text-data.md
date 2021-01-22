@@ -4,6 +4,27 @@
 
 # 13. Exploring Text Data
 
+## Obtaining text data from the web
+
+Using the command line, you can download texts and other data directly from the command line. One way to do this is to use `curl`. "Curl," sometimes written "cURL," is an acronym for "client URL." If you point `curl` at a file located at a URL on the web, `curl` will stream the content of that file to your shell, where it can be printed to your screen, piped as input to another command, or written to a file that you can save to disk. 
+
+One use for `curl` is to save web pages in HTML format for offline viewing. How well this works in practice will depend on how the web page in question has been coded. Images and links in many web pages may be absent or non-functional when viewed this way, but the text content is usually readable. For example, try using `curl` on the page you're looking at rignt now. Copy the URL from your browser's location bar, and paste that URL into a terminal window after the `curl` command, adding a re-direct to write the page contents to a file. (*NB*: Be sure to add the `.html` extension to the end of the file so that your browser knows to display the file as it would on the web.)
+
+```
+$ curl https://github.com/cdl-geneseo/command-line/blob/fall-20-workshop/sections/12-searching-text-data.md > searching-text-data.html
+```
+Depending on how your computer's operating system preferences are set, you may be able to open this file by simply double-clicking it in the GUI. If doing that opens the file in VS Code or another text editor, try right-clicking the file icon and telling your computer to open the file in, say, Firefox or Safari.
+
+If you look in your browser's location bar, you won't see a web address but rather a path to the file's location on your computer. It might look something like this:
+
+```
+file:///Users/schacht/Desktop/searching-text-data.html
+```
+
+If you're connected to the internet, the page will look pretty much the same as it does on the web. But if you disconnect from the internet and refresh the page, it will look quite different; images will be missing, and much of the text styling will be lost. But the important content is still there and readable.
+
+On pages that contain minimal styling and few or no images, what you see offline will differ very little from what you see online. For example, compare how Neal Stephenson's essay, ["In the Beginning ... Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html) looks on the web to what you see if you `curl` the page, save it to a file (remember to give it the `.html` extension!) and display the saved page in your browser while offline.
+
 So far the only text file we've been working with is our cheat sheet. Now, this is where the command line can be a very powerful tool: let's try working with a large text file, one that would be too large to work with by hand.
 
 Let's download the file we're going to work with:
