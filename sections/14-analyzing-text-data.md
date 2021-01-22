@@ -6,6 +6,15 @@
 
 Let's do some very basic analysis of *Walden*. The tools we'll use to do this are rough; they won't yield information as accurate as what we'd get using a programming language such as Python or R. But precision isn't our aim here; we just want to get a quick sense of some things we can do with plain text content at the command line.
 
+If we're interested in things like word-counts and word-frequencies in *Walden*, we now have a challenge. The text we downloaded contains much more than *Walden*: an additional text by Thoreau and a bunch of text from Gutenberg. To clean our data, we need to get rid of this extra textual content. 
+
+We don't have time to do that in our workshop, so instead, you should simply download a clean copy of *Walden* — and only *Walden* that we've prepared for our work today:
+
+```console
+$ https://raw.githubusercontent.com/cdl-geneseo/command-line/fall-20-workshop/files/walden.txt > walden.txt
+```
+You can verify that this fresh copy of *Walden* has been cleaned of unwanted text by looking at it from the command line using `head`, `tail`, and `less`.
+
 ## Counting
 
 We can count the words in *Walden* by piping the text content to `wc`, just as we did in an earlier example with text we created ourselves. The command below streams the full content of the file, then turns that stream into input for the command `wc -w`, which says, "Count the words in this input."
@@ -72,7 +81,6 @@ If you scroll through your search results, you'll notice that your search picked
 ```
 $ grep -En --color=always '\bwater\b' walden.txt
 ```
-
 
 ## Learn more about grep and regex
 

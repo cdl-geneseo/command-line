@@ -25,54 +25,58 @@ If you're connected to the internet, the page will look pretty much the same as 
 
 On pages that contain minimal styling and few or no images, what you see offline will differ very little from what you see online. For example, compare how Neal Stephenson's essay, ["In the Beginning ... Was the Command Line"](http://cristal.inria.fr/~weis/info/commandline.html) looks on the web to what you see if you `curl` the page, save it to a file (remember to give it the `.html` extension!) and display the saved page in your browser while offline.
 
-So far the only text file we've been working with is our cheat sheet. Now, this is where the command line can be a very powerful tool: let's try working with a large text file, one that would be too large to work with by hand.
+You can use `curl` to obtain text data from the web other than HTML files — for example, you can use it to download data files in a "flat" format such as `.csv` or `.tsv`, and you can use it to download books and other text content available on the web in `.txt` files. 
 
-Let's download the file we're going to work with:
+Another, more powerful and flexible, command-line tool for downloading web content is `wget`. We won't use it here because it may not be installed on your system. 
 
-[Download `walden.txt`](https://raw.githubusercontent.com/cdl-geneseo/command-line/fall-20-workshop/files/walden.txt) (To download the file rather than open it in your browser window, you may need to right-click and "Save Link As ...". On a Mac laptop, which doesn't have a dedicated button for right-clicking, press the trackpad while holding down the <kbd>control</kbd> key. If a dialog pops up asking where to save the file, save it to your `Downloads` folder.)
+## Obtaining content from Gutenberg.org
 
-Our file contains the text of Henry David Thoreau's *Walden*, obtained from [Gutenberg.org](https://www.gutenberg.org/files/205/205-0.txt) and cleaned up to remove another Thoreau text from the file ("Civil Disobedience") and the boilerplate language that Gutenberg includes at the top and bottom of every file. 
+[Guutenberg.org](https://www.gutenberg.org) is a terrific source of public domain texts. The site makes most texts available in multiple formats, including HTML and plain text.
 
-## Move Command
+Let's say we wanted to grab ourselves a copy of Henry David Thoreau's *Walden*. Here's how we could do that.
 
-Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop—either through the command line or by dragging and dropping in the GUI. Since this is a command line workshop, why not try the former?
+Type
 
-To move this file using the command line, you first need to navigate to your `Downloads` folder where that file is saved. Then type the `mv` command followed by the name of the file you want to move and then the file path to your `projects` folder on your desktop, which is where you want to move that file to (note that `~` refers to your home folder):
+```
+$ curl https://www.gutenberg.org/files/205/205-0.txt
+```
+and hit `return/enter`. What happens? Gutenberg.org's edition of *Walden, and On The Duty Of Civil Disobedience* is streamed to your terminal. But like a video that you stream on YouTube, this text stream isn't saved to your disk. It's not in a file anywhere, and if you end your shell session, you'll lose the content. To save it, you need to re-direct the streamed content to a file, as we did with the websites like so:
+
+```
+$ curl https://www.gutenberg.org/files/205/205-0.txt > walden-gutenberg.txt
+```
+What you saw in the stream in your terminal window and in the file you just saved is identical to what you would see if you simply went to <https://www.gutenberg.org/files/205/205-0.txt> in your browser. Check it out and see for yourself.
+
+## Viewing Data at the Command Line
+
+Now that we've downloaded Gutenberg's edition of *Walden, and On The Duty Of Civil Disobedience* and saved it to a file, let's look inside it.
+
+Try using `cat` to do this. You'll find it all goes by too fast to get any sense of it. (You can click <kbd>control</kbd> + <kbd>c</kbd> on your keyboard to cancel the output if it's taking too long.)
+
+Instead, let's look just at what's at the top ("head") of the file:
 
 ```console
-$ mv walden.txt ~/Desktop/projects/
+$ head walden-gutenberg.txt
 ```
-
-You can then navigate to that `projects` folder and use the `ls` command to check that the file is now there.
-
-## Viewing Data in the Command Line
-
-Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click <kbd>control</kbd> + <kbd>c</kbd> on your keyboard to cancel the output if it's taking too long.)
-
-Instead, let's use another tool, the `less` command, to get the data one page at a time:
+&hellip; and just at what's at the bottom ("tail") of the file:
 
 ```console
-$ less walden.txt
-...
+$ tail walden-gutenberg.txt
+```
+Using another command, `less`, we can get the text delivered to us a page at a time. 
+
+```console
+$ less walden-gutenberg.txt
 ```
 
-`less` gives you a paginated view of the data; it will show you contents of a file or the output from a command or string of commands, page by page.
-
-To view the file contents page by page, you may use the following keyboard shortcuts (that should work on Windows using Git Bash or on macOS terminal):
+To page through the file, use the following keyboard shortcuts (that should work on Windows using Git Bash or on macOS terminal):
 
 Click the <kbd>f</kbd> key to view forward one page, or the <kbd>b</kbd> key to view back one page.
 
 Once you're done, click the <kbd>q</kbd> key to return to the command line.
 
-Let's try two more commands for viewing the contents of a file:
+Notice that there's a lot of text at both the top and bottom of this file that's not Thoreau's. It's Gutenberg's boilerplate text about terms and conditions.
 
-```console
-$ head walden.txt
-...
-
-$ tail walden.txt
-...
-```
-These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
+When working with data that you download from the web, it's often necessary to make adjustments to it — "clean" it — before it will be useful to you.
 
 ← [Editing from the Command Line](12-editing-from-the-command-line.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Analyzing Text Data](14-analyzing-text-data.md) →
