@@ -38,6 +38,8 @@ Examples:
 $ man cd
 $ grep --help
 ```
+### Exercise special care with these three commands
+
 Here are three commands that you should handle with particular care.
 
 - `sudo`
@@ -48,11 +50,11 @@ Be especially careful with `sudo`, which is typed in front of any command that y
 
 The `rm` command is used to delete ("remove") files and folders. It's powerful and extremely useful, but you need to keep in mind that when you delete content from your computer with `rm`, the content doesn't go to your Trash folder; it goes straight out the door. It's gone.
 
-The `mv` command is highly useful for moving files and folders from one location to another. Technically, what you're doing is *renaming* the file or folder. (If you stop to think about it, a file's full name is just its location in your file hierarchy: e.g., /Users/schacht/Documents/myfile.txt. Its new name is therefore a new path, putting it effectively at a new location, which may or may not be in the same directory. This is perhaps easiest to wrap your head around if you think of a file's `name/path` as an address, like a postal address. That address is where you can "reach it" to read its contents or do something else with it.) 
+The `mv` command is highly useful for moving files and folders from one location to another. Technically, what you're doing is *renaming* the file or folder. (If you stop to think about it, a file's full name is just its location in your file hierarchy: e.g., `/Users/schacht/Documents/myfile.txt`. Its new name is therefore a new path, putting it effectively at a new location, which may or may not be in the same directory. This is perhaps easiest to wrap your head around if you think of a file's `name/path` as an address, like a postal address. That address is where you can "reach it" to read its contents or do something else with it.) 
 
 If you don't use `mv` properly, though, you can end up accidentally overwriting existing file content. This isn't a reason not to use it, just a reason to think before you type.
 
-Which leads to our next tip ...
+Which leads to our next tip &hellip;
 
 ### Back up!
 
