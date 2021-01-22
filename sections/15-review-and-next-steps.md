@@ -66,7 +66,7 @@ If you regularly back up your computer, you'll breathe a lot easier at the comma
 
 When you're done with a session in your shell, you can exit the shell by typing `exit` at the command prompt. To start a new session, you can simply open a new window or tab in your terminal application (Terminal on the Mac, Git Bash in Windows).
 
-Remember, as well, the two common commands we discussed in the workshop for getting back to the command prompt. One is `q` (used, for example, to stop viewing a file's content). The other is <kb>ctrl-C</kb> (often used to interrupt a process that you want to abandon because it's taking too long to run or wasn't what you wanted to run in the first place.)
+Remember, as well, the two common commands we discussed in the workshop for getting back to the command prompt. One is `q` (used, for example, to stop viewing a file's content). The other is <kbd>ctrl-C</kbd> (often used to interrupt a process that you want to abandon because it's taking too long to run or wasn't what you wanted to run in the first place.)
 
 ## Some next steps you might want to take
 
