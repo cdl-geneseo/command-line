@@ -14,6 +14,8 @@ Create a new file or open an existing one:
 ```console
 $ vim filename.txt
 ```
+(Like `code`, the `vim` command can be used either to open a file or create one. The same caveat discussed on the previous page applies here: the file doesn't exist in your filesystem until you save it. If you exit without saving, you won't find anything there.)
+
 The editor will open in the terminal. To begin editing, type the letter `i` (for "insert"). This puts your editor in "Insert" mode.
 
 Type a line of text: for example, 
@@ -47,7 +49,7 @@ Type some additional text.
 
 To save yourself some time, after hitting `esc` you can save and quit by combining the two commands we used above: `:wq`, followed by `return/enter`.
 
-It takes a while to get the hang of Vim's keyboard commands, but once you do, it will seem much less intimidating. There are additional commands that let you perform standard editing tasks such as cut, copy, paste, and undo. One useful feature of Vim is its ability to highlight syntax in documents that include markup (HTML or XML, for example) or programming instructions. Typing `:syntax on` will turn this feature on.
+It takes a while to get the hang of Vim's keyboard commands, but once you do, it will seem much less intimidating. There are additional commands that let you perform standard editing tasks such as cut, copy, paste, and undo. One useful feature of Vim is its ability to highlight syntax in documents that include markup (HTML or XML, for example) or programming instructions. Typing `:syntax on` will turn this feature on. (If you're using Git Bash, you may find that you don't have to do anything to turn this feature on.)
 
 ## Nano
 
@@ -75,7 +77,7 @@ Again, you can confirm the effects of your editing by using `cat` or `less` foll
 
 ## Final thought: the payoff of plain text editing
 
-Notice that you can use Vim, Nano, and VS Code interchangeably on any plain text file. Moving between them isn't at all like moving between, say, Google docs and Microsoft Word. Google and Word documents contain all sorts of proprietary code that's not visible to you when you're working in them and that differs from one format to the other; as a result, moving from between formats can produce unpredictable results.
+Notice that you can use Vim, Nano, and VS Code interchangeably on any plain text file. Moving between them isn't at all like moving between, say, Google docs and Microsoft Word. Google and Word documents contain all sorts of proprietary code that's not visible to you when you're working in them and that differs from one format to the other; as a result, moving between formats can produce unpredictable results.
 
 ---
 
